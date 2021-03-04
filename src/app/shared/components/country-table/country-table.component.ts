@@ -4,7 +4,7 @@ import { Country } from 'src/app/world-state/models/world.model';
 @Component({
   selector: 'app-country-table',
   templateUrl: './country-table.component.html',
-  styleUrls: ['./country-table.component.scss'],
+  styleUrls: ['./country-table.component.css'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class CountryTableComponent {
