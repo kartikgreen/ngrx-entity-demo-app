@@ -68,6 +68,4 @@ It uses selectors to query the data in the store and passes the data to the requ
 
 ###### What Could have done?
 
-Could have fully implemented the Angular styling conventions
-
-Could have used NGRX-DATA to avoid lots of boiler plate code 
+Could have fully followed the Angular styling conventions and have used NGRX-DATA to avoid lots of boiler plate code 
