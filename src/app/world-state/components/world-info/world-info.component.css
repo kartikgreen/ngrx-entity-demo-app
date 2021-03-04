@@ -1,0 +1,19 @@
+
+  #option-with-flag img {
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+    align-self: center;
+  }
+  #option-with-flag {
+    display: flex;
+  }
+  #option-with-flag img {
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+    align-self: center;
+  }
+  #option-with-flag {
+    display: flex;
+  }

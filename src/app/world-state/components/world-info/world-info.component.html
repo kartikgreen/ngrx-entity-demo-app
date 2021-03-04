@@ -1,0 +1,13 @@
+<h2 id="heading">World Info</h2>
+
+<app-custom-dropdown (selectionChange)="onRegionChange($event.value)" label="Region" [options]="regions$ | async"></app-custom-dropdown>
+
+<app-custom-dropdown (selectionChange)="onCountryChange($event.value)" label="Country" [isDisabled]="isRegionChanged$ | async" [options]="countries$ | async">
+    <ng-template #optionTemplate let-option="option">
+        <div id="option-with-flag">
+            <p>{{option.name}}</p> 
+            <img [src]="option.flag"></div>
+    </ng-template>
+</app-custom-dropdown>
+
+<app-country-table [country]="selectedCountry$ | async"></app-country-table>

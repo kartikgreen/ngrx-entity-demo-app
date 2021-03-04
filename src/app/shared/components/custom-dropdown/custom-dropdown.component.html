@@ -1,0 +1,15 @@
+<mat-form-field>
+	<mat-label>{{ label }}</mat-label>
+	<mat-select #selectbox (selectionChange)="selectionChange.emit($event)"
+		[formControl]="selectListControl">
+		<mat-option *ngFor="let option of options" [value]="option">
+			<ng-container [ngTemplateOutlet]="optionTemplateRef || default" [ngTemplateOutletContext]="{option: option}">
+			</ng-container>
+		</mat-option>
+	</mat-select>
+	<mat-error *ngIf="selectListControl.hasError('required')">Required</mat-error>
+</mat-form-field>
+<ng-template #default let-option="option">
+	{{option.name}}
+</ng-template>
+

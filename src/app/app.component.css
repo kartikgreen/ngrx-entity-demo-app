@@ -1,0 +1,32 @@
+@media (max-width: 300px) {
+    .site-header {
+        flex-wrap: wrap;
+    }
+  }
+  .site-header {
+    background: #3f704d;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 10px;
+  }
+  p {
+    font-family: Lato;
+  }
+  .content {
+    max-width: 70%;
+    margin: auto;
+    margin-top: 5%;
+  }
+  #heading {
+    margin: 2% 0;
+    text-align: center;
+    font-size: 25px;;
+  }

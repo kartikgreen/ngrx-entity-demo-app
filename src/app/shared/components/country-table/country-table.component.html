@@ -1,0 +1,23 @@
+<table id="myTable">
+    <thead>
+        <tr>
+            <th colspan="5" scope="col">Country Details</th>
+        </tr>
+    </thead>
+    <tr class="header">
+        <th>Name</th>
+        <th>Capital</th>
+        <th>Population</th>
+        <th>Currencies</th>
+        <th>Flag</th>
+    </tr>
+    <tr>
+        <td>{{ country?.name }}</td>
+        <td>{{ country?.capital }}</td>
+        <td>{{ country?.population }}</td>
+        <td>{{ country?.currencies[0].name }}</td>
+        <td>
+            <img [src]="country?.flag" [width]="100"/>
+        </td>
+    </tr>
+</table>
