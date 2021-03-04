@@ -1,6 +1,8 @@
 # NGRX-ENTITY-DEMO
 
-This is an Angular project demonstrating state management with NGRX ENTITY
+This is an Angular project demonstrating state management with NGRX ENTITY![Screenshot 2021-03-04 at 12 59 41 PM](https://user-images.githubusercontent.com/11583535/109944604-64d1b580-7cfc-11eb-96d7-08bc518ef247.png)
+
+![Screenshot 2021-03-04 at 12 59 31 PM](https://user-images.githubusercontent.com/11583535/109944631-6ac79680-7cfc-11eb-9518-f270ea8f6e0d.png)
 
 ## Development server
 
