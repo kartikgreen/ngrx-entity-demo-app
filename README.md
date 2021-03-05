@@ -30,7 +30,7 @@ When the region is changed, it triggers the two actions
 1. Dispatch region and
 2. dispatch load countries
 
-The region state is stored in the stored and the effect calls the REST API via a repository service to fetch country details and triggers an action to store it in the store
+The region state is stored in the store and the effect calls the REST API via a repository service to fetch country details and triggers an action to store it in the store
 
 When the country is selected, its state is stored in the state.
 
