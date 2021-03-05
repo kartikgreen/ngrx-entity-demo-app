@@ -24,7 +24,7 @@ European or Asian countries. When one of the countries is selected, it populates
 ## How it works?
 
 It uses NGRX library to manage the state of the application.
-The region dropdown data is sent to the dropdown via initial state of the state. 
+The region dropdown data is sent to the dropdown via initial state of the store. 
 
 When the region is changed, it triggers the two actions
 1. Dispatch region and
