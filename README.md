@@ -4,7 +4,7 @@ This is an Angular project demonstrating state management with NGRX ENTITY![Scre
 
 ![Screenshot 2021-03-04 at 12 59 41 PM](https://user-images.githubusercontent.com/11583535/109944876-b24e2280-7cfc-11eb-9341-e2225cf8892f.png)
 
-#### Stackblitz [Demo](https://aonirkmrb.github.stackblitz.io)
+#### Stackblitz: [Demo](https://aonirkmrb.github.stackblitz.io)
 
 ## Development server
 
